@@ -156,8 +156,8 @@ STATIC_ROOT=os.path.join(BASE_DIR,'asserts')
 X_FRAME_OPTIONS = 'ALLOWALL'
 XS_SHARING_ALLOWED_METHODS = ['POST','GET','OPTIONS', 'PUT', 'DELETE']
 cloudinary.config( 
-  cloud_name = "yokesh234", 
-  api_key = "299959317927769", 
-  api_secret = "SEQaov4l18onc8MfpU3t0kiAODs" 
+  cloud_name = "", 
+  api_key = "", 
+  api_secret = "" 
 )
 django_heroku.settings(locals())
